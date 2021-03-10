@@ -1,0 +1,8 @@
+default:
+  suites:
+    default:
+      paths:
+        features: 'features'
+      contexts:
+        - FeatureContext
+        - CoverageContext
