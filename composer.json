@@ -3,9 +3,7 @@
     "php": "^8.0"
   },
   "require-dev": {
-    "behat/behat": "^3.8",
-    "phpunit/phpunit": "^9.5",
-    "behat/mink": "^1.8"
+    "phpunit/phpunit": "^9.5"
   },
   "autoload": {
       "psr-4": {
