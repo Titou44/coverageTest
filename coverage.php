@@ -15,6 +15,7 @@ $filter->includeDirectory(__DIR__ . '/src');
 $filter->excludeDirectory(__DIR__ . '/vendor');
 
 $driver = new Xdebug3Driver($filter);
+$driver->enableDeadCodeDetection();
 
 $coverage = new CodeCoverage($driver, $filter);
 

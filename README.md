@@ -23,3 +23,7 @@ XDEBUG_MODE=coverage php coverage.php
 the result is the following one, where I would expect a 100% coverage
 
 ![result.png](result.png)
+
+the fix was to apply the `enableDeadCodeDetection()` method on the Xdebug3Driver configuration
+
+![correctedResult.png](correctedResult.png)
